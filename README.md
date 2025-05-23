@@ -7,13 +7,13 @@
 3. What are its functions? At present, there are more than 50 functions, mainly including the downstream analysis of amplicon data, such as one-click leveling of OTU, calculation of dilution curves, batch calculation of α diversity, batch drawing of histogram boxplots and statistical significance labeling, hierarchical segmentation of PCoA, NMDS, RDA, CCA, rdacca.hp, one-click calculation of random forest, linear fitting, intra-group (between) correlation heat map, Mantel test, species distribution stacking map, differential volcano map, Some of the functions used in amplicon grouping such as Manhattan diagrams, ternary diagrams, Lefse, STAMPs, etc.
 
 Picture display preview:
-
+![image](https://github.com/user-attachments/assets/f93eb76a-66ab-41a4-aa63-8a5160b75256)
 4. What is his running interface?
-
+ ![image](https://github.com/user-attachments/assets/0cc6217d-02cd-4470-8c54-29b8326263af)
 
 
 Control the parameters of the plot through interface:
-
+![image](https://github.com/user-attachments/assets/7642739f-ee92-4ac6-8361-030b9d25e2b8)
 
 
 
