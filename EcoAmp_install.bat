@@ -195,6 +195,22 @@ echo File download_EcoAmp.py has been created successfully.
 del .\download_EcoAmp.py
 
 echo download_EcoAmp has been successfully
+:: 创建并写入config.json文件
+chcp 65001 > nul  
+(
+    echo {
+    echo     "R_bin": "这里设置R包的bin路径，软件才能正常使用",
+    echo     "Current_language": "简体中文",
+    echo     "current_name": "",
+    echo     "temperature": 0.63,
+    echo     "system": "你是一个生态学数据分析专家，用于辅助用户分析图像作图的结果。回答的时候使用中文回复我的问题。你作为一个软件的内置助手，输出的环境支持markdown格式，但是表格的输出只支持html格式，切记不要输出markdown格式的表格。",
+    echo     "max_token": "5000",
+    echo     "stream": true,
+    echo     "entries": [],
+    echo     "Vip_active_code": "",
+    echo     "if_auto_sent_message": false
+    echo }
+) > ".\EcoAmp\config.json"
 
 :: 暂停
 pause
